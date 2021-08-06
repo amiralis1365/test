@@ -1,0 +1,54 @@
+.popupContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border: 1px solid #98dda7;
+  border-radius: 10px;
+}
+
+.popupContainer > span {
+  padding: 5px;
+  text-align: left;
+  background-color: #98dda7;
+  color: #0f641a;
+  font-size: 0.6 rem;
+  font-weight: 700;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.detailsContainer {
+  padding: 10px 5px;
+}
+
+.buttonsContainer {
+  width: 100%;
+  text-align: right;
+  margin-top: 10px;
+}
+
+.button {
+  background-color: rgb(118, 189, 219);
+  color: #ffffff;
+  padding: 5px;
+  font-size: 0.5 rem;
+  font-weight: 700;
+  border: 1px solid rgb(118, 189, 219);
+  border-radius: 3px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.grayButton {
+  background-color: rgb(151, 151, 151);
+  border-color: rgb(151, 151, 151);
+}
+
+.button:hover {
+  border: 1px solid black;
+}
+
+.button:active {
+  position: relative;
+  top: 1px;
+}
